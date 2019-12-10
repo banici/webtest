@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.slider {
+position: relative;
+height: 80vh;
+}
+
+.slide {
+position: absolute;
+display: flex;
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+opacity: 0;
+}
+
+.slide_active {
+  opacity: 1; 
+  transition: all 1.8s ease-in;
+}
+
+.image{ 
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  bottom: 5%;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}

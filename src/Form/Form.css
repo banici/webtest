@@ -1,0 +1,48 @@
+.nameInput {
+    width: 80%;
+    margin: 10px 10px 5px 10px;
+    height: 30px;
+    font-size: 16px;
+    padding: 0 0 0 5px;
+}
+
+.emailInput {
+    width: 80%;
+    margin: 10px 10px 5px 10px;
+    height: 30px;
+    font-size: 16px;
+    padding: 0 0 0 5px;
+}
+
+.msgInput {
+    width: 80%;
+    height: 80px;
+    margin: 10px 10px 15px 10px;
+    padding: 5px 0 0 5px;
+    font-size: 17px;
+    resize: none;
+}
+
+.btnSend {
+    background-color: transparent;
+    color: rgb(216, 213, 56);
+    letter-spacing: .13em;
+    outline: none;
+    height: 40px;
+    width: 81%;
+    border: 2px solid rgb(216, 213, 56);
+}
+
+.btnSend:hover {
+    background-color: rgb(216, 213, 56);
+    color: white;
+    outline: none;
+    letter-spacing: .13em;
+    border: 2px solid rgb(216, 213, 56);
+    transition: all .7s ease-in-out;
+}
+
+#enterName {
+    position: absolute;
+    color: red;
+}
