@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import './Form.css';
-import { send } from 'q';
 
 
 const Form = (props) => {
