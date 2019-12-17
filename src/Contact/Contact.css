@@ -67,3 +67,10 @@
     align-items: center;
 }
 
+@media only screen and (max-device-width: 900px) {
+    .contactWrapper {
+  
+        grid-template-columns: .2fr 7fr .2fr;
+  
+    }
+  }
