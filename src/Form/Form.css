@@ -46,3 +46,8 @@
     position: absolute;
     color: red;
 }
+
+#enterEmail {
+    position: absolute;
+    color: green;
+}
