@@ -1,7 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Form.css';
 
 
+<<<<<<< HEAD
 const Form = (props) => {
 
 
@@ -46,8 +47,36 @@ const Form = (props) => {
                 <button type="submit" className="btnSend" onClick={buttonFuncs} value={email.text}
                 onChange={e => sendEmail({ email: {...email, text: e.target.value} })}>send</button>
             </form>
+=======
+const Form = () => {
+    return(
+        <div>
+                <form 
+                action="https://formspree.io/martin.krak@mail.com"
+                method="POST"
+                >
+
+                    <input type="text" className="nameInput" name="Name" ></input>
+                    <label for="name" id="enterName">Name</label>
+
+                    <input type="text" className="emailInput" name="ReplyTo" />
+
+                    <textarea className="msgInput" name="Message"></textarea>
+
+                    <button type="submit" className="btnSend" >send</button>
+
+                </form>
+
+                           
+           
+>>>>>>> dev
         </div>
-    );
+    )
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> dev
 export default Form;
