@@ -14,6 +14,7 @@ const Form = () => {
                     <label for="name" id="enterName">Name</label>
 
                     <input type="text" className="emailInput" name="ReplyTo" />
+                    <label for="email" id="enterEmail">Email</label>
 
                     <textarea className="msgInput" name="Message"></textarea>
 
