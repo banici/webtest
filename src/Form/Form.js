@@ -6,7 +6,7 @@ const Form = () => {
     return(
         <div>
                 <form 
-                action="https://formspree.io/martin.krak@mail.com"
+                action="https://formspree.io/banic89a@hotmail.com"
                 method="POST"
                 >
 
