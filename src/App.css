@@ -45,9 +45,6 @@ hr {
     height: 450px;
 
   }
-}
-
-@media only screen and (max-device-width: 900px) {
   .Parallax-text {
     position: absolute;
     width: 80%;

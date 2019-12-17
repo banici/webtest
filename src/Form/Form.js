@@ -10,15 +10,18 @@ const Form = () => {
                 method="POST"
                 >
 
-                    <input type="text" className="nameInput" name="Name" ></input>
+                    <input type="text" className="nameInput" autoComplete="off" name="Name" required></input>
                     <label for="name" id="enterName">Name</label>
 
-                    <input type="text" className="emailInput" name="ReplyTo" />
+                    <input type="email" className="emailInput" autoComplete="off" name="ReplyTo" />
                     <label for="email" id="enterEmail">Email</label>
 
+                <div className="msgDiv">
                     <textarea className="msgInput" name="Message"></textarea>
-
+                    <label for="Message" id="enterMsg">Message</label>
+                </div>
                     <button type="submit" className="btnSend" >send</button>
+                    
 
                 </form>
 
