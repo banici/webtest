@@ -39,7 +39,7 @@
     width: 100%;
     margin: 0 0 20px 0;
     grid-column: 2 / 3;
-    border: 1px solid rgb(216, 213, 56); 
+    border: .5px solid rgb(216, 213, 56); 
     transition: 1s;
     transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
