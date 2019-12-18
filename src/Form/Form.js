@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Form.css';
 
 
 const Form = () => {
+
+
     return(
         <div>
                 <form 
@@ -10,14 +12,29 @@ const Form = () => {
                 method="POST"
                 >
 
-                    <input type="text" className="nameInput" autoComplete="off" name="Name" required></input>
+                    <input type="text" 
+                    placeholder="Name" 
+                    className="nameInput" 
+                    autoComplete="off" 
+                    name="Name" 
+                    required />
+                   
                     <label for="name" id="enterName">Name</label>
 
-                    <input type="email" className="emailInput" autoComplete="off" name="ReplyTo" />
+                    <input type="email"
+                    placeholder="Email" 
+                    className="emailInput" 
+                    autoComplete="off" 
+                    name="ReplyTo" 
+                    required />
+
                     <label for="email" id="enterEmail">Email</label>
 
                 <div className="msgDiv">
-                    <textarea className="msgInput" name="Message"></textarea>
+                    <textarea className="msgInput" 
+                    placeholder="Message" 
+                    name="Message"></textarea>
+
                     <label for="Message" id="enterMsg">Message</label>
                 </div>
                     <button type="submit" className="btnSend" >send</button>

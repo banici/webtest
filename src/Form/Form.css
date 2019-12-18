@@ -43,31 +43,13 @@
 }
 
 #enterName {
-    position: absolute;
-    color: red;
+    display: none;
 }
 
 #enterEmail {
-    position: absolute;
-    color: green;
+    display: none;
 }
 
 #enterMsg {
-    background: transparent;
+    display: none;
 }
-.msgDiv #enterMsg {
-    position: absolute;
-    top: 45%;
-    bottom: 0;
-    left: -24%;
-    width: 100%;
-    transition: 0.2s;
-    color: blue;
-}
-
-
-.msgInput:focus + #enterMsg {
-    top: 100%;
-    margin-top: -16px;
-    overflow: hidden;
-  }
