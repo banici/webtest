@@ -51,5 +51,15 @@
 }
 
 #enterMsg {
-    display: none;
+
+    color: red;
+    
 }
+
+/*@media only screen and (min-device-width: 900px) {
+    #enterMsg {
+        visibility: visible;
+      
+  
+    }
+}*/
