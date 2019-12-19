@@ -6,7 +6,7 @@ const Form = () => {
 
 
     return(
-        <div>
+        <div className="formDiv">
                 <form 
                 action="https://formspree.io/banic89a@hotmail.com"
                 method="POST"
@@ -20,22 +20,26 @@ const Form = () => {
                     required />
                    
                     <label for="name" id="enterName">Name</label>
-
+                
+                <div className="emailDiv">
                     <input type="email"
                     placeholder="Email" 
                     className="emailInput" 
                     autoComplete="off" 
                     name="ReplyTo" 
                     required />
-
-                    <label for="email" id="enterEmail">Email</label>
-
+                    <div id="float_email_lbl">
+                        <label for="email" id="enterEmail">Email</label>
+                    </div>
+                </div>
+                
                 <div className="msgDiv">
                     <textarea className="msgInput" 
                     placeholder="Message" 
                     name="Message"></textarea>
-
-                    <label for="Message" id="enterMsg">Message</label>
+                        <div id="float_msg_lbl">
+                            <label for="Message" id="enterMsg">Message</label>
+                        </div>
                 </div>
                     <button type="submit" className="btnSend" >send</button>
                     

@@ -48,7 +48,7 @@
     position: absolute;
     transition: 2s;
     transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-    height: 270px;
+    height: 350px;
     border: 2px solid rgb(216, 213, 56); 
     width: 100%;
     overflow-y: hidden;

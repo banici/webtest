@@ -1,26 +1,35 @@
+.formDiv {
+    width: 90%;
+    position: relative;
+}
+
 .nameInput {
-    width: 80%;
-    margin: 10px 10px 5px 10px;
-    height: 30px;
+    width: 100%;
+    margin: 10px 0 5px 0;
+    height: 40px;
     font-size: 16px;
     padding: 0 0 0 5px;
+    outline: none;
 }
 
 .emailInput {
-    width: 80%;
-    margin: 10px 10px 5px 10px;
-    height: 30px;
+    width: 100%;
+    margin: 10px 0 5px 0;
+    height: 40px;
     font-size: 16px;
     padding: 0 0 0 5px;
+    outline: none;
 }
 
+
 .msgInput {
-    width: 80%;
-    height: 80px;
-    margin: 10px 10px 15px 10px;
+    width: 100%;
+    height: 130px;
+    margin: 10px 0 5px 0;
     padding: 5px 0 0 5px;
     font-size: 17px;
     resize: none;
+    outline: none;
 }
 
 .btnSend {
@@ -29,7 +38,7 @@
     letter-spacing: .13em;
     outline: none;
     height: 40px;
-    width: 81%;
+    width: 100%;
     border: 2px solid rgb(216, 213, 56);
 }
 
@@ -42,24 +51,69 @@
     transition: all .7s ease-in-out;
 }
 
+.msgDiv, .emailDiv {
+    text-align: center;
+    position: relative;
+    overflow-y: hidden;
+}
+
 #enterName {
     display: none;
 }
 
-#enterEmail {
-    display: none;
+#float_email_lbl {
+    visibility: hidden;
+    background-color: red;
+    position: absolute;
+    top: 39px;
+    width: 100%;
+    height: 0px;
+    overflow-y: hidden;
+    transition: ease-in-out 0.5s;
+ }
+ 
+#float_msg_lbl {
+   visibility: hidden;
+   position: absolute;   
+   background-color: rgb(216, 213, 56);
+   width: 100%;
+   top: 95px;
+   height: 0px;
+   overflow-y: hidden;
+   transition: ease-in-out 0.5s;
 }
 
-#enterMsg {
+#enterEmail, #enterName {
+    color: white;
+    font-size: 13px;
+    letter-spacing: .10em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-    color: red;
+#enterMsg {  
+    color: white;
+    letter-spacing: .10em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (min-device-width: 900px) {
     
-}
-
-/*@media only screen and (min-device-width: 900px) {
-    #enterMsg {
+    .msgInput:focus + #float_msg_lbl {
         visibility: visible;
-      
-  
+        top: 77px;
+        height: 20px;
+        transition: ease-in-out 0.5s;
+        
+        
     }
-}*/
+
+    .emailInput:focus + #float_email_lbl {
+        visibility: visible;
+        top: 30px;
+        height: 15px;
+        transition: ease-in-out 0.5s;
+        
+        
+    }
+
+}
