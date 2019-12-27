@@ -4,7 +4,7 @@ import './Slide.css';
 
 const Slide = () => { 
 
-  let names = ['cSharp-logo.png', 'Vs-logo1.png'];
+  let names = ['cSharp-logo.png', 'Vs-logo1.png', 'sql-logo.png', 'dotNet-logo.png', 'html-logo.png', 'react-logo.png'];
 
   const [current, setCurrent] = useState(0);
 
