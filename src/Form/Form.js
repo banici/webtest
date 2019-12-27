@@ -19,8 +19,9 @@ const Form = () => {
                     name="Name" 
                     required />
                    <div id="float_name_lbl">
-                    <label for="name" id="enterName">Name</label>
+                        <label for="name" id="enterName">Name</label>
                     </div>
+                    
                 <div className="emailDiv">
                     <input type="email"
                     placeholder="Email" 
