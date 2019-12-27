@@ -57,18 +57,25 @@
     overflow-y: hidden;
 }
 
-#enterName {
-    display: none;
-}
+#float_name_lbl {
+    
+    background-color: rgb(216, 213, 56);
+    position: absolute;
+    top: 54px;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    transition: ease-in-out 0.5s;
+ }
 
 #float_email_lbl {
     visibility: hidden;
-    background-color: red;
+    background-color: rgb(216, 213, 56);
     position: absolute;
-    top: 39px;
+    top: 54px;
     width: 100%;
     height: 0px;
-    overflow-y: hidden;
+    overflow: hidden;
     transition: ease-in-out 0.5s;
  }
  
@@ -77,7 +84,7 @@
    position: absolute;   
    background-color: rgb(216, 213, 56);
    width: 100%;
-   top: 95px;
+   top: 147px;
    height: 0px;
    overflow-y: hidden;
    transition: ease-in-out 0.5s;
@@ -85,7 +92,7 @@
 
 #enterEmail, #enterName {
     color: white;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: .10em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -96,24 +103,29 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+
 @media only screen and (min-device-width: 900px) {
     
     .msgInput:focus + #float_msg_lbl {
         visibility: visible;
-        top: 77px;
-        height: 20px;
-        transition: ease-in-out 0.5s;
-        
-        
+        top: 127px;
+        height:20px;
+        transition: ease-in-out 0.5s;       
     }
 
     .emailInput:focus + #float_email_lbl {
         visibility: visible;
-        top: 30px;
+        top: 39px;
         height: 15px;
         transition: ease-in-out 0.5s;
-        
-        
+    }
+
+    .nameInput:focus + #float_name_lbl {
+        visibility: visible;
+        top: 39px;
+        height: 15px;
+        transition: ease-in-out 0.5s;
     }
 
 }
