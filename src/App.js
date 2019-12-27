@@ -28,8 +28,6 @@ function App() {
 
       <Contact />
       
-
-      
       <Footer text="This website is written in React.js"/>
       </div>
 
