@@ -18,7 +18,7 @@ const About = (props) => {
       </div>
 
       <div className="PictureBox2">
-      <h1>Logo of (School) {props.name}</h1>
+      <img className="imageSchool" src={require(`../Images/thskolan1.png`)} alt="" />
       </div>
 
 

@@ -15,15 +15,23 @@
 }
 
 .PictureBox2{
-    background-color: purple;
+    background-color: rgb(36, 34, 34);
     grid-column: 2 / 3;
     grid-row: 2;
+    height: 400px;
+    text-align: right;
+    overflow: hidden;
 }
 
 .PresentationBox2{
     background-color: gray;
     grid-column: 1 / 2;
     grid-row: 2;
+}
+
+.imageSchool {
+  height: 100%;
+  width: 50%;
 }
 
 @media only screen and (max-device-width: 800px) {
