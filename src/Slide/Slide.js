@@ -4,7 +4,7 @@ import './Slide.css';
 
 const Slide = () => { 
 
-  let names = ['ladda-neda.jpg', 'ladda-nedaa.jpg', 'ladda-nedd.jpg', 'ladda-neddd.jpg'];
+  let names = ['cSharp-logo.png', 'Vs-logo1.png'];
 
   const [current, setCurrent] = useState(0);
 
@@ -13,7 +13,7 @@ const Slide = () => {
   }
 
   React.useEffect(() => {
-    setTimeout(goToNext, 4000)
+    setTimeout(goToNext, 3500)
   })
 
   if (!Array.isArray(names) || names.length <= 0) {
