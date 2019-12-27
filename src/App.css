@@ -9,6 +9,7 @@ hr {
   background: linear-gradient(to right, white, rgb(136, 136, 136), white);
   height: 2px;
   border: none;
+  color: red;
 }
 
 .Parallax{

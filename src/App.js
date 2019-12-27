@@ -3,6 +3,7 @@ import './App.css';
 import About from './About/About';
 import Slide from './Slide/Slide';
 import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
 
 
@@ -27,12 +28,9 @@ function App() {
 
       <Contact />
       
+
       
-      <hr />
-      
-      <footer className="footer">
-        <h1>some text here</h1>
-      </footer>
+      <Footer text="This website is written in React.js"/>
       </div>
 
 
