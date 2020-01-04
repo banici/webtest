@@ -19,8 +19,8 @@ function App() {
       
       </div>
            
-
       <About />
+      
       <hr />
       <Slide />
       <hr />

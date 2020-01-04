@@ -6,7 +6,7 @@ const About = (props) => {
     <div className="AboutContainer">
       
       <div className="PictureBox">
-      <h1>Picture of (Me) {props.name}</h1>
+      <img className="imagePortrait" src={require(`../Images/webPic.png`)} alt="" />
       </div>
 
       <div className="PresentationBox">
