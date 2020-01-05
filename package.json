@@ -2,7 +2,7 @@
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://banici.github.io/webtest/",
+  "homepage": "https://banici.github.io/myPortfolio/",
   "dependencies": {
     "@sendgrid/mail": "^6.4.0",
     "cors": "^2.8.5",
