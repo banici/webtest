@@ -10,7 +10,8 @@ const About = (props) => {
       </div>
 
       <div className="PresentationBox">
-        <h1>Info about (Me) {props.surName}</h1>
+        <p>Mitt namn är Ilija och jag är 30 år gammal. The end.
+        </p>
       </div>
 
       <div className="PresentationBox2">

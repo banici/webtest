@@ -8,7 +8,7 @@ function Footer(props) {
 
   return (
     <div className="footerWrapper">
-        <p>{props.text}</p>
+        <p id="footerText">{props.text}</p>
       </div>
 
   );

@@ -4,6 +4,13 @@
     grid-auto-rows: minmax(100px, auto);
 }
 
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  color: white;
+  padding: 200px 40px 0 40px;
+}
+
 .PictureBox{
   background-color: rgb(36, 34, 34);
     grid-column: 1 / 2;
@@ -14,6 +21,7 @@
 .PresentationBox{
     background-color: black;
     grid-column: 2 / 3;
+    text-align: center;
 }
 
 .PictureBox2{
