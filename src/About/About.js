@@ -13,18 +13,18 @@ const About = (props) => {
         <p id="presentationText">
         Mitt namn är Ilija Banic och jag är färdigutbildad .NET utvecklare 
         som jag studerat på Teknikhögskolan i Göteborg. Mitt kompetensområde 
-        ligger främst inom Backend som låg i fokus under utbildningen gång. 
-        Jag har även praktisk erfarenhet från praktikplatser som gett mig 
-        drivet att utvecklas ännu mer och bli en bättre programmerare!
+        ligger främst inom Backend som låg i fokus under utbildningens gång. 
+        Jag innehar även praktisk erfarenhet från praktikplatser som gett mig 
+        drivet att utvecklas mer och bli en bättre programmerare!
         </p>
       </div>
 
       <div className="PresentationBox2">
         <p id="presentationText">
         Teknikhögskolan är en yrkeshögskola belägen i centrala Göteborg och har 
-        funnits sedan 2009. Skolan har olika inriktningar varav en är IT fokuserad 
-        och formad utifrån arbetsmarknadens behov. Under utbildning erbjuds teoretisk 
-        utbildning i kombination med praktiska samarbeten med näringslivet.
+        funnits sedan år 2009. Skolan har olika inriktningar varav en är IT fokuserad 
+        och formad utifrån arbetsmarknadens behov. Under utbildningen erbjuds teoretisk 
+        undervisning i kombination med praktiska samarbeten med näringslivet.
         </p>
       </div>
 
