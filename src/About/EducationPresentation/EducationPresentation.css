@@ -38,10 +38,27 @@ ol li::before {
 @media only screen and (max-device-width: 900px) {
 
     #educationText {
-        padding: 30px 50px 30px 50px;
+        padding: 30px 18px 30px 18px;
         font-size: 18px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
     }
+
+    .listContainer {
+        padding: 0 0 18px 18px;
+    }
+
+    ol li {
+        height: 40px;
+        font-size: 19px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    ol li::before {
+        content: "•"; 
+        color: rgb(216, 213, 56);
+        font-weight: bold;
+        font-size: 130%;
+      }
 
   }
