@@ -4,6 +4,7 @@ import About from './About/About';
 import Slide from './Slide/Slide';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
+import EducationPresentation from './About/EducationPresentation/EducationPresentation';
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <Slide />
       <hr />
 
+      <EducationPresentation />
 
       <Contact />
       

@@ -10,12 +10,22 @@ const About = (props) => {
       </div>
 
       <div className="PresentationBox">
-        <p>Mitt namn är Ilija och jag är 30 år gammal. The end.
+        <p id="presentationText">
+        Mitt namn är Ilija Banic och jag är färdigutbildad .NET utvecklare 
+        som jag studerat på Teknikhögskolan i Göteborg. Mitt kompetensområde 
+        ligger främst inom Backend som låg i fokus under utbildningen gång. 
+        Jag har även praktisk erfarenhet från praktikplatser som gett mig 
+        drivet att utvecklas ännu mer och bli en bättre programmerare!
         </p>
       </div>
 
       <div className="PresentationBox2">
-        <h1>Info aboout (School) {props.surName}</h1>
+        <p id="presentationText">
+        Teknikhögskolan är en yrkeshögskola belägen i centrala Göteborg och har 
+        funnits sedan 2009. Skolan har olika inriktningar varav en är IT fokuserad 
+        och formad utifrån arbetsmarknadens behov. Under utbildning erbjuds teoretisk 
+        utbildning i kombination med praktiska samarbeten med näringslivet.
+        </p>
       </div>
 
       <div className="PictureBox2">
