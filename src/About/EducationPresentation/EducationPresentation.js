@@ -1,11 +1,11 @@
 import React from 'react';
 import './EducationPresentation.css';
-import {edText} from '../../TextFiles/Sv-utbildningsText.txt';
 
 
 
 
 function EducationPresentation() {
+
 
   return (
     <div className="PresentationWrap">
@@ -13,7 +13,7 @@ function EducationPresentation() {
         <h1 id="rubrikText">Kvalifikationer</h1>
         </div>
         <p id="educationText">
-        {edText}
+        hej
         </p>
         <div className="listContainer">
             <ol id="courseList">
