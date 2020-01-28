@@ -1,23 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0764f506714b80f5577fa5a7262d3f99",
+    "revision": "91c5b750d5e7394a23bc02eb77732545",
     "url": "/myPortfolio/index.html"
   },
   {
-    "revision": "12afc8a397131d6f00c0",
-    "url": "/myPortfolio/static/css/main.2402352a.chunk.css"
+    "revision": "f6ce53b358d10233a134",
+    "url": "/myPortfolio/static/css/main.70842fc6.chunk.css"
   },
   {
-    "revision": "1728ba234e07eed06320",
-    "url": "/myPortfolio/static/js/2.6c52650d.chunk.js"
+    "revision": "a31392919d8015b32aa3",
+    "url": "/myPortfolio/static/js/2.85c7bd69.chunk.js"
   },
   {
-    "revision": "12afc8a397131d6f00c0",
-    "url": "/myPortfolio/static/js/main.805564ef.chunk.js"
+    "revision": "f6ce53b358d10233a134",
+    "url": "/myPortfolio/static/js/main.877eea64.chunk.js"
   },
   {
     "revision": "d1dde543e0f3837cd4ca",
     "url": "/myPortfolio/static/js/runtime-main.972fcd99.js"
+  },
+  {
+    "revision": "b07a3f4b900a2545a9ecabc42a08caef",
+    "url": "/myPortfolio/static/media/Sv-presentationMe.b07a3f4b.txt"
+  },
+  {
+    "revision": "b8d575575136d550770e409ea7bb24d3",
+    "url": "/myPortfolio/static/media/Sv-presentationSchool.b8d57557.txt"
+  },
+  {
+    "revision": "103dc681eed5a03ee606af93a0c4b62f",
+    "url": "/myPortfolio/static/media/Sv-utbildningsText.103dc681.txt"
   },
   {
     "revision": "885bc8a42bae731dae3cd53d3c20e965",
