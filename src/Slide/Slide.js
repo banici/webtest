@@ -13,7 +13,7 @@ const Slide = () => {
   }
 
   React.useEffect(() => {
-    setTimeout(goToNext, 3500)
+    setTimeout(goToNext, 3000)
   })
 
   if (!Array.isArray(names) || names.length <= 0) {

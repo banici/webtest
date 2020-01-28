@@ -1,0 +1,1 @@
+﻿Mitt namn är Ilija Banic och jag är färdigutbildad Fullstack .NET utvecklare som jag studerat på Teknikhögskolan i Göteborg. Mitt kompetensområde ligger främst inom Backend som låg i fokus under utbildningens gång. Jag innehar även praktisk erfarenhet från praktikplatser som gett mig drivet att utvecklas mer och bli en bättre programmerare!
