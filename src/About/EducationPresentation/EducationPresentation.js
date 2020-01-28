@@ -1,11 +1,12 @@
 import React from 'react';
 import './EducationPresentation.css';
-
+import TextFileReader from '../../TextFileReader';
 
 
 
 function EducationPresentation() {
 
+var myTxt = require("../../TextFiles/Sv-utbildningsText.txt");
 
   return (
     <div className="PresentationWrap">
@@ -13,7 +14,7 @@ function EducationPresentation() {
         <h1 id="rubrikText">Kvalifikationer</h1>
         </div>
         <p id="educationText">
-        hej
+          <TextFileReader txt={myTxt} />
         </p>
         <div className="listContainer">
             <ol id="courseList">
