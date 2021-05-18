@@ -15,7 +15,7 @@ function App() {
       <div className="Parallax">
 
       <div className="TitleContainer">
-      <h1 className="Parallax-text">Ilija Banic | Junior developer | Fullstack .NET</h1>
+      <h1 className="Parallax-text">Herro Ilija Banic | Junior developer | Fullstack .NET</h1>
       </div>
       
       </div>
