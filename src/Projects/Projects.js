@@ -39,7 +39,7 @@ function Projects(props) {
         </div>
         
       </div>
-
+    
   );
 }
 
