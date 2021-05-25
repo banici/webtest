@@ -20,18 +20,38 @@
     padding: 0 0 50px 50px;
 }
 
+#content {
+    overflow: hidden;
+}
 
 ol li {
+
+    padding-top: 20px;
+    margin-bottom: -20px;
+    font-weight: bold;
     height: 60px;
     font-size: 25px;
     font-family: 'Lato', sans-serif;
 }
 
 ol li::before {
-    content: "•"; 
+    /*
+    content: "ᐯ"; */
+    padding-right: 10px;
+    vertical-align: 18%;
+    content: "■";
     color: rgb(216, 213, 56);
     font-weight: bold;
-    font-size: 200%;
+    font-size: 80%;
+  }
+
+  .descriptionBox {
+      padding-left: 23px;
+  }
+
+  #descText {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
   }
 
 @media only screen and (max-device-width: 900px) {
@@ -52,19 +72,26 @@ ol li::before {
 
     .listContainer {
         padding: 0 0 18px 18px;
+        overflow: hidden;
     }
 
     ol li {
+        padding-top: 20px;
+        margin-bottom: -10px;
         height: 40px;
         font-size: 19px;
         font-family: 'Lato', sans-serif;
     }
     
     ol li::before {
-        content: "•"; 
+        content: "■"; 
         color: rgb(216, 213, 56);
         font-weight: bold;
-        font-size: 130%;
+        font-size: 80%;
       }
+
+      .descriptionBox {
+        padding-left: 20px;
+    }
 
   }

@@ -10,7 +10,13 @@ var myTxt = require("../../TextFiles/Sv-utbildningsText.txt");
 
 const nameList = jsonList.map(name => {
   return (
-    <li>{name.name}</li>
+    <div id="content">
+      <li>{name.title}</li>
+      <div className="descriptionBox">
+        <p id="descText">{name.description}</p>
+      </div> 
+    </div>
+    
   )
 })
 
