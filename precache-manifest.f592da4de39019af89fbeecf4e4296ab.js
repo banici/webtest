@@ -1,23 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2985221575c4b20a1fc462993644d24a",
+    "revision": "6897db80a327508cd69e818bf9ff6cbd",
     "url": "/myPortfolio/index.html"
   },
   {
-    "revision": "645bd8b4ec3408993c70",
-    "url": "/myPortfolio/static/css/main.c6313921.chunk.css"
+    "revision": "218d0cbf23ae54d21111",
+    "url": "/myPortfolio/static/css/main.2568663a.chunk.css"
   },
   {
-    "revision": "bb58841e242653b56834",
-    "url": "/myPortfolio/static/js/2.9bdec6d1.chunk.js"
+    "revision": "5856e02ffd7daf5883ff",
+    "url": "/myPortfolio/static/js/2.3adb3023.chunk.js"
   },
   {
-    "revision": "645bd8b4ec3408993c70",
-    "url": "/myPortfolio/static/js/main.2af8a3ef.chunk.js"
+    "revision": "218d0cbf23ae54d21111",
+    "url": "/myPortfolio/static/js/main.7faa257c.chunk.js"
   },
   {
     "revision": "618a535873cb5c8d8918",
     "url": "/myPortfolio/static/js/runtime-main.598308fc.js"
+  },
+  {
+    "revision": "942e79a8744374b4f35f5aa18c9c6287",
+    "url": "/myPortfolio/static/media/Cert_Basic-OOP.942e79a8.jpg"
+  },
+  {
+    "revision": "cf5d768f52377fe4cb9a8ed0df1fb8c0",
+    "url": "/myPortfolio/static/media/Cert_RESTful-API.cf5d768f.jpg"
   },
   {
     "revision": "c75e1fd0731207adade01c1c61fa6c3d",
